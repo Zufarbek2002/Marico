@@ -1,0 +1,68 @@
+.expert {
+    margin-top: 99px;
+    color: #fff;
+}
+
+.expert__title {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 112px;
+    margin-bottom: 52px;
+}
+
+
+@media screen and (max-width: 820px) {
+    .expert__title {
+        font-size: 54px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .expert__title {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+}
+
+// people section
+.people {
+    margin-top: 188px;
+    color: #fff;
+}
+
+.people__box{
+    background-image: url(../images/people_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 301px 0 288px;
+}
+
+.people__text {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 105px;
+    text-align: center;
+    width: 100%;
+    max-width: 1236px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .people__text{
+        font-size: 40px;
+        line-height: 70px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .people__text{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    .people__box{
+        padding: 100px 0;
+    }
+}

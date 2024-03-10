@@ -1,0 +1,55 @@
+.advanture {
+    margin-top: 188px;
+    color: #fff;
+}
+
+.advanture__cotainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.advanture__title {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 150px;
+}
+
+.advanture__sub_text {
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.advanture__btn_box{
+    width: 100%;
+    max-width: 472px;
+    margin-bottom: 26px;
+    margin-top: 14px;
+}
+
+.advanture__btn{
+    width: 100%;
+    padding: 29px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .advanture__title{
+        font-size: 70px;
+        line-height: 100px;
+    }
+    .advanture__sub_text{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .advanture__title{
+        font-size: 40px;
+        line-height: 70px;
+    }
+    .advanture__sub_text{
+        font-size: 20px;
+    }
+}

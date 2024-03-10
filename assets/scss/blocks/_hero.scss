@@ -1,0 +1,50 @@
+.hero {
+    margin-top: 128px;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__title {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-wrap: nowrap;
+}
+
+.hero__sub_title{
+    color: #FE6783;
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-wrap: nowrap;
+}
+
+// responsive part
+@media screen and (max-width: 1100px) {
+    .text_size{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .text_size{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 735px) {
+    .text_size{
+        font-size: 50px;
+        text-wrap: wrap;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 570px) {
+    .text_size{
+        font-size: 35px;
+    }
+}
